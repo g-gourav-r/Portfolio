@@ -83,6 +83,7 @@
 
 .btn{
     font-family: 'Montserrat', sans-serif;
+    color: black;
     padding: 10px 35px;
     border-radius: 15px;
     background-color: transparent;
@@ -93,7 +94,7 @@
 .btn:hover{
     cursor: pointer;
     border-radius: 15px;
-    background-color: ;
+    background-color: rgba(1,1,1,0.75);
     color: black;
     box-shadow: 0 0 5px white 0 0 10px white,0 0 15px white;
     font-weight: bold;
@@ -105,4 +106,18 @@
     position: absolute;
     top: 150%;
     right: 10%;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+}
+
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+    
 }
